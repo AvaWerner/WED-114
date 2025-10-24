@@ -31,7 +31,7 @@
             if (total >= 0) {
                 window.confirm(`Please confirm that you spent ${ total.toLocaleString("en-US", {style: "currency", currency: "USD", })}`);
                 if (total < 50 ) {
-                    window.alert("No Discount Avalible");
+                    window.alert("No Discount Found");
                 }
                 else if (total >= 75 , total <= 99) {
                     window.alert("10% off");
@@ -46,7 +46,7 @@
                 if (total >= 0) {
                     window.confirm(`Please confirm that you spent ${ total.toLocaleString("en-US", {style: "currency", currency: "USD", })}`);
                     if (total < 50 ) {
-                       window.alert("No Discount Avalible");
+                       window.alert("No Discount Found");
                     }
                     else if (total >= 75 , total <= 99) {
                        window.alert("10% off");
@@ -58,3 +58,4 @@
         </script>
     </body>
 </html>
+
