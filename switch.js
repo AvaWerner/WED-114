@@ -1,6 +1,6 @@
 //Ava Werner 10/28/25
 
-let favMonth = window.prompt("What is your favorite month?");;
+let favMonth = window.prompt("What is your favorite month?");
 favMonth = favMonth.toLowerCase();
 
 if (isNaN(favMonth) == true) {
@@ -55,3 +55,4 @@ if (isNaN(favMonth) == true) {
 else {
     console.log("Please enter a valid month, not numbers!");
 }
+
